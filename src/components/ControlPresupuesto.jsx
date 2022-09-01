@@ -17,7 +17,7 @@ function ControlPresupuesto({presupuesto}) {
                     <span>Presupuesto: </span> {formatearCantidad(presupuesto) }
                 </p>
 
-                <p className={`${disponible < 0 ? 'negativo' : '' }`}>
+                <p >
                     <span>Disponible: </span>{formatearCantidad(0)}
                 </p>
 
