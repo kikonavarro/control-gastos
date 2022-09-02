@@ -62,7 +62,7 @@ function Modal({
 				onSubmit={handleSubmit}
 				className={`formulario ${animarModal ? "animar" : "cerrar"}`}
 			>
-				<legend>{gastoEditar.nombre ? 'Editar gasto' : 'Añador gasto'}</legend>
+				<legend>{gastoEditar.nombre ? 'Editar gasto' : 'Añadir gasto'}</legend>
 				{mensaje && <Mensaje tipo="error">{mensaje}</Mensaje>}
 
 				<div className="campo">
@@ -88,7 +88,7 @@ function Modal({
 				</div>
 
 				<div className="campo">
-					<label htmlFor="categoria">Categoria</label>
+					<label htmlFor="categoria">Categoría</label>
 
 					<select
 						value={categoria}
